@@ -28,11 +28,8 @@ const styles = StyleSheet.create({
   },
   floatingButton: {
     backgroundColor: '#1C9BF0',
-    width: 50,
-    height: 50,
+    padding: 15,
     borderRadius: 25,
-    textAlign: 'center',
-    lineHeight: 50,
     position: 'absolute',
     right: 15,
     bottom: 15,

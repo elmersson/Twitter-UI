@@ -9,9 +9,10 @@ A project trying to recreate the basics of the twitter app. This Part is about c
 
 ## Project parts
 
-| Part | Topic     | Repository                                                | 
-| ---- | --------- | --------------------------------------------------------- | 
-| #1   | Frontend  | [Twitter-UI](https://github.com/elmersson/Twitter-UI)     |          
+| Part | Topic     | Repository                                                   | 
+| ---- | --------- | -------------------------------------------------------------| 
+| #1   | Frontend  | [Twitter-UI](https://github.com/elmersson/Twitter-UI)        |
+| #2   | Backend   | [TwitterBackend](https://github.com/elmersson/TwitterBackend)|   
 
 ## Run the project
 

@@ -3,6 +3,9 @@
 ## Description
 A project trying to recreate the basics of the twitter app. This Part is about creating the fundamentals for the app in the frontend with mockdata.
 
+## Plan
+To create my own take on what the plattform should be and look like.
+
 ## Tech Stack
 
 **Mobile**: React Native, Expo

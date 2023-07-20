@@ -12,10 +12,11 @@ To create my own take on what the plattform should be and look like.
 
 ## Project parts
 
-| Part | Topic     | Repository                                                   | 
-| ---- | --------- | -------------------------------------------------------------| 
-| #1   | Frontend  | [Twitter-UI](https://github.com/elmersson/Twitter-UI)        |
-| #2   | Backend   | [TwitterBackend](https://github.com/elmersson/TwitterBackend)|   
+| Part | Topic    | Repository                                                    |
+| ---- | -------- | ------------------------------------------------------------- |
+| #0   | Project | [Twitter](https://github.com/elmersson/Twitter)         |
+| #1   | Frontend | [Twitter-UI](https://github.com/elmersson/Twitter-UI)         |
+| #2   | Backend  | [TwitterBackend](https://github.com/elmersson/TwitterBackend) |
 
 ## Run the project
 

@@ -3,8 +3,8 @@ const tweets = [
     id: 't0',
     user: {
       id: 'u1',
-      username: 'VadimNotJustDev',
-      name: 'Vadim',
+      username: 'Elmersson',
+      name: 'Rasmus',
       image:
         'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
     },

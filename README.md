@@ -1,20 +1,22 @@
 # Twitter-UI
 
 ## Description
+
 A project trying to recreate the basics of the twitter app. This Part is about creating the fundamentals for the app in the frontend with mockdata.
 
 ## Future
+
 To create my own take on what the plattform should be and look like.
 
 ## Tech Stack
 
-**Mobile**: React Native, Expo
+**Mobile**: React Native, Expo, React Query
 
 ## Project parts
 
 | Part | Topic    | Repository                                                    |
 | ---- | -------- | ------------------------------------------------------------- |
-| #0   | Project | [Twitter](https://github.com/elmersson/Twitter)         |
+| #0   | Project  | [Twitter](https://github.com/elmersson/Twitter)               |
 | #1   | Frontend | [Twitter-UI](https://github.com/elmersson/Twitter-UI)         |
 | #2   | Backend  | [TwitterBackend](https://github.com/elmersson/TwitterBackend) |
 

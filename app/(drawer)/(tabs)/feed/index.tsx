@@ -3,12 +3,12 @@ import {
   View,
   FlatList,
   Pressable,
-  ActivityIndicator,
+  Alert,
   Text,
+  ActivityIndicator,
 } from 'react-native';
-
 import Tweet from '../../../../components/Tweet';
-import tweets from '../../../../assets/data/tweets';
+// import tweets from '../../../../assets/data/tweets';
 import { Entypo } from '@expo/vector-icons';
 import { Link } from 'expo-router';
 import { useEffect, useState } from 'react';
@@ -32,6 +32,7 @@ export default function FeedScreen() {
   return (
     <View style={styles.page}>
       <FlatList data={data} renderItem={({ item }) => <Tweet tweet={item} />} />
+
       <Link href="/new-tweet" asChild>
         <Entypo
           name="plus"
@@ -51,11 +52,14 @@ const styles = StyleSheet.create({
   },
   floatingButton: {
     backgroundColor: '#1C9BF0',
-    padding: 15,
+
     borderRadius: 25,
+    padding: 15,
+
     position: 'absolute',
     right: 15,
     bottom: 15,
+
     shadowColor: '#000',
     shadowOffset: {
       width: 0,
@@ -63,7 +67,9 @@ const styles = StyleSheet.create({
     },
     shadowOpacity: 0.25,
     shadowRadius: 3.84,
+
     elevation: 5,
+
     overflow: 'hidden',
   },
 });

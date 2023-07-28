@@ -1,7 +1,6 @@
-import Tweet from '../../../../../components/Tweet';
-import tweets from '../../../../../assets/data/tweets';
-import { useSearchParams } from 'expo-router';
 import { ActivityIndicator, Text } from 'react-native';
+import Tweet from '../../../../../components/Tweet';
+import { useSearchParams } from 'expo-router';
 import { useQuery } from '@tanstack/react-query';
 import { getTweet } from '../../../../../lib/api/tweets';
 

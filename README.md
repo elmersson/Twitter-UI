@@ -23,8 +23,8 @@ To create my own take on what the plattform should be and look like.
 ## Run the project
 
 - Clone or download the repo
-- ```npm i``` to install dependencies
-- ```npm start``` to run the development server
+- `npm i` to install dependencies
+- `npm start` to run the development server
 
 Run the app on a simulator:
 

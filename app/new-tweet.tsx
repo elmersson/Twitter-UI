@@ -11,12 +11,12 @@ import {
   ActivityIndicator,
 } from 'react-native';
 import { useMutation, useQueryClient } from '@tanstack/react-query';
-import { createTweet } from '../lib/api/tweets';
+import { useTweetsApi } from '../lib/api/tweets';
 
 const user = {
   id: 'u1',
-  username: 'VadimNotJustDev',
-  name: 'Vadim',
+  username: 'elmersson',
+  name: 'rasmus',
   image:
     'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/vadim.png',
 };
@@ -24,6 +24,8 @@ const user = {
 export default function NewTweet() {
   const [text, setText] = useState('');
   const router = useRouter();
+
+  const { createTweet } = useTweetsApi();
 
   const queryClient = useQueryClient();
 
